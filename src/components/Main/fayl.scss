@@ -1,0 +1,63 @@
+.Table {
+    position: relative;
+    width: 50%;
+    margin: 30px auto auto auto;
+    background-color: #73A9E6;
+    color: orangered;
+
+    tr {
+        color: #73A9E6;
+    }
+
+    .ant-table-container table>thead>tr:first-child th:first-child {
+        border-top-left-radius: 2px;
+        background-color: #d7e3f2;
+    }
+
+    .ant-table-container table>thead>tr:first-child th:nth-child(2) {
+        border-top-left-radius: 2px;
+        background-color: #d7e3f2;
+    }
+
+    .ant-table-container table>thead>tr:first-child th:nth-child(3) {
+        border-top-left-radius: 2px;
+        background-color: #d7e3f2;
+    }
+
+    .ant-table-container table>thead>tr:first-child th:nth-child(4) {
+        border-top-left-radius: 2px;
+        background-color: #d7e3f2;
+    }
+
+    .ant-table-container table>thead>tr:first-child th:nth-child(5) {
+        border-top-left-radius: 2px;
+        background-color: #d7e3f2;
+    }
+
+    th {
+        color: #73A9E6;
+        background-color: #73A9E6;
+    }
+
+    .iconDelete {
+        color: red;
+        &:hover {
+            transform: scale(2) rotate(0deg);
+            cursor: pointer;
+            
+        }
+    }
+
+    .iconInfo {
+        color: blue;
+
+        &:hover {
+            transform: scale(2) rotate(0deg)
+        }
+    }
+    .iconEdit{
+        &:hover {
+            transform: scale(2) rotate(0deg)
+        }
+    }
+}

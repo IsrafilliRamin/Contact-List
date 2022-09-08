@@ -1,0 +1,23 @@
+.HeaderDiv {
+    background-color: #73A9E6;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    
+}
+
+.btnHeader {
+    background-color: #fff;
+    color: #73A9E6;
+    transition: 800ms all;
+    margin-right: 5vw;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: orangered;
+        color: #fff;
+        transition: 800ms all;
+    }
+}

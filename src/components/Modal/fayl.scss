@@ -1,0 +1,43 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 7vw;  
+    z-index: 100;
+   transition: 700ms all;
+    .modalContainer {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        color: #73A9E6;
+        button{
+            width: 40%;
+            margin-left: 100px;
+            position: absolute;
+            bottom: 10px;
+            &:hover{
+                cursor: pointer;
+                border: 2px solid rgb(0, 247, 255);
+                border-radius: 5px;
+            }
+        }
+    }
+    ul{
+        li{
+            text-decoration: none;
+            list-style: none;
+            font-size: 20px;
+            margin-top: 16px;
+        }
+    }
+}
+
